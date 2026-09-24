@@ -25,7 +25,7 @@
 
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg border border-gray-200">
                 <div class="p-6 text-gray-900 overflow-x-auto">
-                    <table class="w-full text-left border-collapse">https://github.com/AhmadGiri/pesanmakan.git
+                    <table class="w-full text-left border-collapse">
                         <thead class="bg-gray-100 text-gray-700 uppercase text-xs">
                             <tr>
                                 <th class="p-4 border-b"># ID</th>
