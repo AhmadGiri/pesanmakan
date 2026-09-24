@@ -42,7 +42,7 @@ class FoodController extends Controller
             'image'       => $imagePath,
         ]);
 
-        return redirect()->route('foods.index')
+        return redirect()->route('admin.foods.index')
             ->with('success', 'Data makanan berhasil ditambahkan!');
     }
 
@@ -79,7 +79,7 @@ class FoodController extends Controller
             'image'       => $imagePath,
         ]);
 
-        return redirect()->route('foods.index')
+        return redirect()->route('admin.foods.index')
             ->with('success', 'Data makanan berhasil diperbarui!');
     }
 
@@ -91,7 +91,7 @@ class FoodController extends Controller
 
         $food->delete();
 
-        return redirect()->route('foods.index')
+        return redirect()->route('admin.foods.index')
             ->with('success', 'Data makanan berhasil dihapus!');
     }
 }
