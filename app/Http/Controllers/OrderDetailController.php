@@ -8,57 +8,43 @@ use App\Http\Requests\UpdateOrderDetailRequest;
 
 class OrderDetailController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
+    // Menampilkan semua data order detail
     public function index()
     {
         //
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
+    // Menampilkan form untuk membuat order detail
     public function create()
     {
         //
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
+    // Menyimpan order detail baru
     public function store(StoreOrderDetailRequest $request)
     {
         //
     }
 
-    /**
-     * Display the specified resource.
-     */
+    // Menampilkan detail order tertentu
     public function show(OrderDetail $orderDetail)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
+    // Menampilkan form untuk mengedit order detail
     public function edit(OrderDetail $orderDetail)
     {
         //
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
+    // Memperbarui order detail
     public function update(UpdateOrderDetailRequest $request, OrderDetail $orderDetail)
     {
         //
     }
 
-    /**
-     * Remove the specified resource from storage.
-     */
+    // Menghapus order detail
     public function destroy(OrderDetail $orderDetail)
     {
         //
